@@ -24,7 +24,7 @@ TA: Jedidiah (Jed) McClurg
         4. You should now have a Linux "desktop" inside a window on your computer!
 5. SSH Keys
     1. Create your own public/private key pair:
-    ssh-keygen -t rsa -C "jrmcclurg@gmail.com"    
+    `ssh-keygen -t rsa -C "jrmcclurg@gmail.com"`
 6. Version Control
     1. 
     2. 

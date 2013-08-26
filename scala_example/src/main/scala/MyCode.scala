@@ -11,4 +11,18 @@ object MyCode {
       res + x
     }
   }
+
+  def stringsToInts(sl : Array[String]) : List[Int] = {
+    (sl.map { s => s.toInt }).toList
+  }
+}
+
+object Main {
+  import MyCode._
+
+  def main(args: Array[String]) {
+    val sum = MyCode.sumList(stringsToInts(args))
+    val sum2 = MyCode.sumList2(stringsToInts(args))
+    println("The sum is: "+sum+" ("+sum2+")")
+  }
 }
